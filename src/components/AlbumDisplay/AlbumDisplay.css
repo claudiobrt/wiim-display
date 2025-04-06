@@ -1,0 +1,48 @@
+.album-display-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Cover art setup */
+  .cover-container {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #album-art {
+    width: auto;  /* Let the width scale automatically */
+    height: 100%; /* Let the height fill the container */
+    max-width: none; /* Remove any width constraints */
+    object-fit: cover;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.7); /* Right and bottom shadow */
+    border-radius: 4px; 
+  }
+  
+  /* Text setup */
+  .text-container {
+    width: 100%;
+    height: 20%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2, p {
+    margin: 5px;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 2em;
+  }
