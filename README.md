@@ -354,5 +354,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Thanks to Linkplay/WiiM for their HTTP API documentation
-- Built with React, Vite, Express, and a lot of coffee
-- Special thanks to everyone who contributed to and tested this project
+- Built with React, Vite and Express
